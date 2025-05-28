@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosinstance= axios.create({
-  baseURL: 'http://localhost:8005',
+  baseURL: 'https://notesapp-mern-backend.onrender.com',
   timeout: 10000,
   headers: { 
     "Content-Type":"application/json"
