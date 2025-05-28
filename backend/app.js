@@ -4,9 +4,9 @@ const mongoose=require("mongoose")
 const app=express()
 require("dotenv").config()
 
+app.use(cors({origin:"*"}))
 const port=process.env.PORT
 app.use(express.json())
-app.use(cors({origin:"*"}))
 
 const url=process.env.DB_URL
 const dbconnect= async()=>{
