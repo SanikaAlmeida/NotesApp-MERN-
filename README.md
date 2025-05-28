@@ -96,7 +96,7 @@ NotesApp-MERN-/
 │   ├── models/
 │   ├── routes/
 │   └── server.js
-├── frontend/
+├── frontend/notes-app
 │   ├── src/
 │   ├── public/
 │   └── index.html
